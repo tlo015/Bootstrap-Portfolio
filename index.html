@@ -4,71 +4,83 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!-- Stylesheets -->
+    <!-- Bootstrap Stylesheet -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="bootstrapStyle.css">
+    <!--CSS Stylesheet-->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
+
 <!-- Navigation Bar -->
-<!-- Highlighted Name Bar -->
-<nav class="navbar navbar-expand-md navbar-light bg-light mt-0" id="masthead">
-    <a class="navbar-brand name text-light" href="#">Regina Lo</a>
+<nav class="navbar navbar-expand-md navbar-light bg-light" id="masthead">
+<div class="container-fluid">
+    <!--Brand-->
+    <a class="navbar-brand text-light px-md-4 py-md-3" id="name" href="#">Regina Lo</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
-<!-- Right Align Nav Bar -->    
-    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+    <div class="collapse text-right navbar-collapse justify-content-end" id="navbarNav">
         <ul class="navbar-nav">
             <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
+                <a class="nav-link" href="index.html">About</a>
             </li>
-            <li>|</li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Portfolio</a>
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
             </li>
-            <li>|</li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="contact.html">Contact</a>
             </li>
         </ul>
     </div>
+</div>
 </nav>
- 
-<div class="container masthead">
+
 <!-- Main Body About Me-->
+<div class="container py-md-5" id="body">
 <div class="row">
     <section class="main-section col-md-9">
-        <h1> About Me </h1>
-        <img src="" class="myImage" alt="Regina Lo">
+    <div class="border bg-light p-md-3 mainBorder">
+        <h1 class="border-bottom pt-md-1 pb-md-3"> About Me </h1>
+        <div class="content pt-md-3">
+        <img class="myImage pt-md-2 pr-md-3" src="assets/images/aboutme.jpg" alt="Regina Lo">
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa est cum asperiores iure sit omnis possimus dolor error! Illum dolor minima delectus excepturi assumenda. Ea expedita molestias perspiciatis magni. Illum!</p>
         <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis aspernatur molestias veritatis fuga ut harum quia officiis recusandae quos quod amet voluptatum reiciendis dolores, quaerat ab dolore est aperiam doloribus?</p>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores consequatur quod veniam? Vel illo consequuntur harum necessitatibus quibusdam sint, ullam, repellendus error, temporibus vero nemo eligendi odio voluptas perspiciatis non!</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab libero rerum ea quos laudantium molestias numquam repudiandae assumenda illum? Adipisci cupiditate blanditiis veniam fugiat exercitationem libero ipsum assumenda aspernatur earum?</p>
+        </div>
+    </div>
     </section>
-
+    
     <sideBar class="side-bar col-md-3">
-        <h2> Connect with Me </h2>
-        <div class="row networks">
+    <div class="border bg-light p-md-3">
+        <h3 class="border-bottom pt-md-1 pb-md-3"> Connect with Me </h3>
+        <div class="row networks pt-md-3">
             <div class="github col-md-4">
-                <img src="" alt="github">
+                <img class="img-fluid" src="assets/images/github.png" alt="github">
             </div>
             <div class="linkedin col-md-4">
-                <img src="" alt="linkedin">
+                <img class="img-fluid" src="assets/images/linkedin.png" alt="linkedin">
             </div>
             <div class="instagram col-md-4">
-                <img src="" alt="instagram">
+                <img class="img-fluid" src="assets/images/instagram.png" alt="instagram">
             </div> 
         </div>
+    </div>
     </sideBar>
 </div>
 </div>
 
 <!-- Footer -->
-<footer class="bg-dark text-white mt-4">
-    <div class="container-fluid py-3">
-        <h5>Footer</h5></div>
+<footer>
+    <div class="footer">
+    <p>Copyright @Regina Lo 2018</p>
     </div>
 </footer>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
 </body>
 </html>
