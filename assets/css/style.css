@@ -1,23 +1,151 @@
-/* All page style */
-/* Nav Bar */
-body{
-    min-height: 100vh;
+/* --All page style-- */
+*{
+    box-sizing: border-box;
 }
 
-.name{
+html {
+    /* For footer */
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    background-image: url("../images/circles.png");
+    font-family: Arial, Helvetica, sans-serif;
+    /* Margin bottom by footer height */
+    margin-bottom: 120px;
+}
+
+/* --Nav Bar-- */
+#masthead{
+    border-bottom-style: solid;
+    border-bottom-color: #cccccc;
+    border-bottom-width: 2px;
+}
+
+#name{
     text-decoration-line: none;
     background-color: #4aaaa9;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 2em;
-    margin-top: 0.67em;
-    margin-bottom: 0.67em;
-    margin-left: 0;
-    margin-right: 0;
-    font-weight: bold;
-    padding: 10px 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 33px;
+    font-weight: 700;
+    padding: 20px 30px;
+    margin: -8px 0;
 }
 
-li{
-    padding: 0px 5px;
+.nav-item{
+    padding-left: 25px;
 }
+
+.nav-link{
+    color: grey;
+    font-weight: 700;
+}
+
+/* --Page Template-- */
+#main-container{
+    margin-top: 40px;
+}
+
+#main-border{
+    border-style: solid;
+    border-color: #cccccc;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+h1{
+    color: #4aaaa9;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300;
+    padding-bottom: 15px;
+    border-bottom-style: solid;
+    border-bottom-color: #dddddd;
+    border-bottom-width: 3px;
+    margin-bottom: 20px;
+}
+
+section{
+    margin-bottom: 40px;
+}
+
+/* --Side Bar-- */
+h2{
+    color: #4aaaa9;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 25px;
+    font-weight: 300;
+    padding-bottom: 15px;
+    border-bottom-style: solid;
+    border-bottom-color: #dddddd;
+    border-bottom-width: 2px;
+}
+
+#networks{
+    padding-top: 15px;
+}
+
+
+
+/* --Footer-- */
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    background-color: #666666;
+    color: white;
+    text-align: center;
+    border-top-style: solid;
+    border-top-color: #4aaaa9;
+    border-top-width: 5px;
+    padding: 35px 0px 0px 0px;
+}
+
+
+/* --Main Body Index --*/
+.my-image{
+    float: left;
+    width: 200px;
+    height: auto;
+    padding-top: 5px;
+    padding-right: 15px;
+}
+
+/* --Main Body Portfolio-- */
+#row{
+    padding-top: 20px;
+}
+
+.work {
+    position: relative;
+    overflow: auto;
+    padding: 10px 0px;
+  }
+ 
+.work h3 {
+    background-color: #4aaaa9;
+    position: absolute;
+    bottom: 20px;
+    margin-bottom: 0;
+    font-weight: 300;
+    line-height: 30px;
+    border-bottom: 0;
+}
+
+/* --Main Body Contact */
+.input-border{
+    border-radius: 0px;
+}
+
+#message{
+    border-radius: 0px;
+}
+
+#submitButton{
+    border-radius: 0px;
+    background-color: #4aaaa9;
+    padding:10px 30px;
+}
+
+

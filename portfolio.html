@@ -14,9 +14,9 @@
 
 <!-- Navigation Bar -->
 <nav class="navbar navbar-expand-md navbar-light bg-light" id="masthead">
-<div class="container-fluid">
+<div class="container">
     <!--Brand-->
-    <a class="navbar-brand text-light px-md-4 py-md-3" id="name" href="#">Regina Lo</a>
+    <a class="navbar-brand text-light" id="name" href="index.html">Regina Lo</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -37,63 +37,81 @@
 </nav>
 
 <!-- Main Body Portfolio-->
-<div class="container py-md-5" id="body">
-<div class="row">
-    <section class="col-md-9 main-section">
-    <div class="border bg-light p-md-3 mainBorder">
-        <h1 class="border-bottom pt-md-1 pb-md-3"> Portfolio </h1>
+<div class="container" id="main-container">
+    <div class="row">
+        <section class="main-section col-md-9">
+        <div class="border" id="main-border">
+        <h1 class="border-botton pt-md-1 pb-md-3"> Portfolio </h1>
         
-        <div class="row pt-md-4">
-            <div class="col-md-6 project">
-                <img src="assets/images/hangman.jpg" style="height:auto" class="w-100">
-                <div class="text-center w-100" id="game">Hangman </div>
+        <div class="row" id="row">
+            <div class="col-md-6">
+                <div class="work">
+                    <img class="w-100" src="assets/images/hangman.jpg" alt="hangman">
+                    <h3 class="text-center text-light p-md-3 w-100">Hangman</h3>
+                </div>   
             </div>
+            <div class="col-md-6">
+                <div class="work">
+                    <img class="w-100" src="assets/images/RPG.jpg" alt="RPG game">
+                    <h3 class="text-center text-light p-md-3 w-100">RPG Game</h3>
+                </div>   
+            </div>
+        </div>    
+        <div class="row" id="row">
+            <div class="col-md-6">
+                <div class="work">
+                    <img class="w-100" src="assets/images/trivia.jpg" alt="trivia game">
+                    <h3 class="text-center text-light p-md-3 w-100">Trivia Game</h3>
+                </div>   
+            </div>
+            <div class="col-md-6">
+                <div class="work">
+                    <img class="w-100" src="assets/images/infowidget.jpg" alt="rutgers info widget">
+                    <h3 class="text-center text-light p-md-3 w-100">Rutgers Info Widget</h3>
+                </div>   
+            </div>
+        </div>    
+        <div class="row" id="row">
+            <div class="col-md-6">
+                <div class="work">
+                    <img class="w-100" src="assets/images/rockpaperscissors.jpg" alt="rock paper scissors">
+                    <h3 class="text-center text-light p-md-3 w-100">Rock Paper Scissors</h3>
+                </div>   
+            </div>
+        </div>     
+        
         </div>
-        <div class="image col-md-6">
-            <img src="assets/images/RPG.jpg" style="height:auto" class="w-100">
-            <div class="game"> RPG Game </div>
-        </div>
-
-        <div class="container1">
-            <img src="assets/images/trivia.jpg">
-            <div class="game"> Trivia Game </div>
-        </div>
-        <div class="container">
-            <img src="assets/images/infowidget.jpg">
-            <div class="game"> Rutgers Info Widget </div>
-        </div>
-                
-        <div class="container1">
-            <img src="assets./images/rockpaperscissors.jpg">
-            <div class="game"> Rock Paper Scissors </div>
+        </section>
+    
+<!-- Side Bar -->        
+<sideBar class="side-bar col-md-3">
+    <div class="border" id="main-border">
+        <h2 class="border-bottom"> Connect with Me </h2>
+        <div class="row" id="networks">
+            <div class="github col-4 col-md-4">
+                <a href="https://github.com/tlo015"> 
+                    <img class="img-fluid" src="assets/images/github.png" alt="github">
+                </a>
+            </div>
+            <div class="linkedin col-4 col-md-4">
+                <a href="https://www.linkedin.com/in/tlo015">
+                    <img class="img-fluid" src="assets/images/linkedin.png" alt="linkedin">
+                </a>
+            </div>
+            <div class="instagram col-4 col-md-4">
+                <a href="http://www.instagram.com/blkpocket">
+                    <img class="img-fluid" src="assets/images/instagram.png" alt="instagram">
+                </a>
+            </div>  
         </div>
     </div>
-    </section>
-    
-    <sideBar class="side-bar col-md-3">
-        <div class="border bg-light p-md-3">
-            <h3 class="border-bottom pt-md-1 pb-md-3"> Connect with Me </h3>
-            <div class="row networks pt-md-3">
-                <div class="github col-md-4 pt">
-                    <img class="img-fluid" src="assets/images/github.png" alt="github">
-                </div>
-                <div class="linkedin col-md-4">
-                    <img class="img-fluid" src="assets/images/linkedin.png" alt="linkedin">
-                </div>
-                <div class="instagram col-md-4">
-                    <img class="img-fluid" src="assets/images/instagram.png" alt="instagram">
-                </div> 
-            </div>
-        </div>
     </sideBar>
 </div>
 </div>
 
 <!-- Footer -->
 <footer>
-    <div class="footer">
     <p>Copyright @Regina Lo 2018</p>
-    </div>
 </footer>
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
